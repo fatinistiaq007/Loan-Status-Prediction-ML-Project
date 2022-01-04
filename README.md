@@ -9,7 +9,6 @@
 #### Accuracy metrics are: 
 
 |Algorithm||Jaccard||F1-score||LogLoss|
-|-------------||----------||-----------||----------|
 |   KNN   ||  0.8  ||  0.46  ||  NA   |
 |   Decision Tree   ||  0.78  ||  0.45  ||  NA   |
 |   SVM   ||  0.78  ||  0.15  ||  NA   |
@@ -25,7 +24,6 @@
 #### But accuracy metrics are not the same:  
 
 |Algorithm||Jaccard||F1-score||LogLoss|
-|-------------||----------||-----------||----------|
 |   KNN   ||  0.6481  ||  0.239  ||  NA   |
 |   Decision Tree   ||  0.72  ||  0.44  ||  NA   |
 |   SVM   ||  0.7407  ||  0.0  ||  NA   |
