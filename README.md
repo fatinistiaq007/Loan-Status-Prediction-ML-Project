@@ -8,11 +8,11 @@
 
 #### Accuracy metrics are: 
 
-|Algorithm||Jaccard||F1-score||LogLoss|
-|   KNN   ||  0.8  ||  0.46  ||  NA   |
-|   Decision Tree   ||  0.78  ||  0.45  ||  NA   |
-|   SVM   ||  0.78  ||  0.15  ||  NA   |
-|   LogisticRegression   ||  0.71  ||  0.258  || 0.50   |
+#### |Algorithm||Jaccard||F1-score||LogLoss|
+#### |   KNN   ||  0.8  ||  0.46  ||  NA   |
+#### |   Decision Tree   ||  0.78  ||  0.45  ||  NA   |
+#### |   SVM   ||  0.78  ||  0.15  ||  NA   |
+#### |   LogisticRegression   ||  0.71  ||  0.258  || 0.50   |
 
 
 #### (2) For testing data set,  the features 'Principal','terms','age','Gender','weekend' + 'education' replaced by 1 numeric column (see above), with normalization, were obtained the same best parameters: 
