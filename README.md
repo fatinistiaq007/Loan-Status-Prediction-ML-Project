@@ -23,10 +23,10 @@
 
 #### But accuracy metrics are not the same:  
 
-|Algorithm||Jaccard||F1-score||LogLoss|
-|   KNN   ||  0.6481  ||  0.239  ||  NA   |
-|   Decision Tree   ||  0.72  ||  0.44  ||  NA   |
-|   SVM   ||  0.7407  ||  0.0  ||  NA   |
-|   LogisticRegression   ||  0.7407  ||  0.0  || 0.4825   |
+#### |Algorithm||Jaccard||F1-score||LogLoss|
+#### |   KNN   ||  0.6481  ||  0.239  ||  NA   |
+#### |   Decision Tree   ||  0.72  ||  0.44  ||  NA   |
+#### |   SVM   ||  0.7407  ||  0.0  ||  NA   |
+#### |   LogisticRegression   ||  0.7407  ||  0.0  || 0.4825   |
 
 #### As we can see, KNN and LogisticRegression work better in the case (1), Decision Tree shows almost similar results in both the case (1) and (2). SVM might be considered to work better in the case (2), but F1-score=0 means that there are no predicted samples; so it is bad.
